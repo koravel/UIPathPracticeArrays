@@ -45,3 +45,5 @@ desktop.ini
 *AllDependencies.json
 
 .local/*
+
+output/*

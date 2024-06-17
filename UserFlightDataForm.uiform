@@ -1,0 +1,90 @@
+﻿{
+  "Metadata": {
+    "Id": "bfa76037-d19a-49f6-995e-0e182e59ce27",
+    "Kind": "FormIo"
+  },
+  "DesignProperties": {
+    "Title": "UserFlightDataForm",
+    "Theme": "Default",
+    "ShowInTaskbar": true,
+    "ShowMargin": true,
+    "CustomStyle": ""
+  },
+  "Data": {
+    "components": [
+      {
+        "label": "First Name",
+        "placeholder": "Enter your firstname",
+        "tableView": true,
+        "key": "firstName",
+        "type": "textfield",
+        "input": true
+      },
+      {
+        "label": "Last Name",
+        "placeholder": "Enter your lastname",
+        "tableView": true,
+        "key": "lastName",
+        "type": "textfield",
+        "input": true
+      },
+      {
+        "label": "Destination",
+        "placeholder": "Enter your destination",
+        "tableView": true,
+        "key": "destination",
+        "type": "textarea",
+        "input": true
+      },
+      {
+        "label": "Departure Date",
+        "hideInputLabels": false,
+        "inputsLabelPosition": "top",
+        "tableView": false,
+        "fields": {
+          "day": {
+            "hide": false
+          },
+          "month": {
+            "hide": false
+          },
+          "year": {
+            "hide": false
+          }
+        },
+        "key": "departureDate",
+        "type": "day",
+        "input": true
+      },
+      {
+        "label": "Return Date",
+        "hideInputLabels": false,
+        "inputsLabelPosition": "top",
+        "tableView": false,
+        "fields": {
+          "day": {
+            "hide": false
+          },
+          "month": {
+            "hide": false
+          },
+          "year": {
+            "hide": false
+          }
+        },
+        "key": "returnDate",
+        "type": "day",
+        "input": true
+      },
+      {
+        "label": "Submit",
+        "disableOnInvalid": true,
+        "tableView": false,
+        "key": "submit",
+        "type": "button",
+        "input": true,
+        "saveOnEnter": false
+      }
+    ]
+  }
+}

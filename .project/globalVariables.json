@@ -1,0 +1,18 @@
+[
+  {
+    "Constant": true,
+    "Name": "OutputFolderName",
+    "TypeFullyQualifiedName": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+    "UnresolvedTypeFullyQualifiedName": null,
+    "Expression": "\"output\"",
+    "IsLiteral": false
+  },
+  {
+    "Constant": true,
+    "Name": "OutputFileNameTemplate",
+    "TypeFullyQualifiedName": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+    "UnresolvedTypeFullyQualifiedName": null,
+    "Expression": "\"users-reservation\"",
+    "IsLiteral": false
+  }
+]

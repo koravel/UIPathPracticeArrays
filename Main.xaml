@@ -1,0 +1,392 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="2101,3728" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p="clr-namespace:PracticeArrayLikeVariables;assembly=PracticeArrayLikeVariables.Core" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uasc="clr-namespace:UiPath.Activities.System.Collections;assembly=UiPath.System.Activities" xmlns:ufa="clr-namespace:UiPath.Forms.Activities;assembly=UiPath.Forms.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>PracticeArrayLikeVariables</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.Activities.System.Arrays</x:String>
+      <x:String>UiPath.Activities.System.Collections</x:String>
+      <x:String>UiPath.Studio.Forms.Runtime</x:String>
+      <x:String>UiPath.Forms.Activities</x:String>
+      <x:String>UiPath.Platform.GlobalVariables</x:String>
+      <x:String>UiPath.Forms.Activities.Base</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.Platform.Triggers</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>Microsoft.Extensions.DependencyModel</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Forms.Runtime</AssemblyReference>
+      <AssemblyReference>UiPath.Forms.Activities</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.Watcher</AssemblyReference>
+      <AssemblyReference>System.IO.Packaging</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.AccessControl</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.DriveInfo</AssemblyReference>
+      <AssemblyReference>PracticeArrayLikeVariables.Core</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="610,3663" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="scg:List(p:UserFlightData)" Name="UserDataList">
+        <Variable.Default>
+          <CSharpValue x:TypeArguments="scg:List(p:UserFlightData)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">new List&lt;UserFlightData&gt;()</CSharpValue>
+        </Variable.Default>
+      </Variable>
+      <Variable x:TypeArguments="x:Boolean" Default="True" Name="IsAdddingMore" />
+      <Variable x:TypeArguments="x:String" Name="AddMoreDialogResult">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:String">Yes</Literal>
+        </Variable.Default>
+      </Variable>
+      <Variable x:TypeArguments="x:Boolean" Name="IsOutputFolderExists" />
+      <Variable x:TypeArguments="x:String" Name="OutputFileName" />
+      <Variable x:TypeArguments="x:Boolean" Name="IsOutputFileExists" />
+      <Variable x:TypeArguments="x:String" Name="OutputFileFullPath" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Assign sap:VirtualizedContainerService.HintSize="548,114" sap2010:WorkflowViewState.IdRef="Assign_4">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:String">
+          <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_7">OutputFileName</CSharpReference>
+        </OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:String">
+          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_41">GlobalConstants.OutputFileNameTemplate + "-" + DateTime.Now.ToString("yyyy-MM-dd") + ".txt"</CSharpValue>
+        </InArgument>
+      </Assign.Value>
+    </Assign>
+    <Assign sap:VirtualizedContainerService.HintSize="548,114" sap2010:WorkflowViewState.IdRef="Assign_5">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:String">
+          <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_8">OutputFileFullPath</CSharpReference>
+        </OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:String">
+          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_42">Path.Combine(GlobalConstants.OutputFolderName, OutputFileName)</CSharpValue>
+        </InArgument>
+      </Assign.Value>
+    </Assign>
+    <ui:FolderExistsX DisplayName="Folder Exists" sap:VirtualizedContainerService.HintSize="548,165" sap2010:WorkflowViewState.IdRef="FolderExistsX_1">
+      <ui:FolderExistsX.Exists>
+        <OutArgument x:TypeArguments="x:Boolean">
+          <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_4">IsOutputFolderExists</CSharpReference>
+        </OutArgument>
+      </ui:FolderExistsX.Exists>
+      <ui:FolderExistsX.Path>
+        <InArgument x:TypeArguments="x:String">
+          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_21">GlobalConstants.OutputFolderName</CSharpValue>
+        </InArgument>
+      </ui:FolderExistsX.Path>
+    </ui:FolderExistsX>
+    <If sap:VirtualizedContainerService.HintSize="548,464" sap2010:WorkflowViewState.IdRef="If_2">
+      <If.Condition>
+        <InArgument x:TypeArguments="x:Boolean">
+          <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_19">!IsOutputFolderExists</CSharpValue>
+        </InArgument>
+      </If.Condition>
+      <If.Then>
+        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,191" sap2010:WorkflowViewState.IdRef="Sequence_5">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:CreateDirectory ContinueOnError="{x:Null}" Output="{x:Null}" DisplayName="Create Folder" sap:VirtualizedContainerService.HintSize="354,103" sap2010:WorkflowViewState.IdRef="CreateDirectory_1">
+            <ui:CreateDirectory.Path>
+              <InArgument x:TypeArguments="x:String">
+                <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_22">GlobalConstants.OutputFolderName</CSharpValue>
+              </InArgument>
+            </ui:CreateDirectory.Path>
+          </ui:CreateDirectory>
+        </Sequence>
+      </If.Then>
+      <If.Else>
+        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,103" sap2010:WorkflowViewState.IdRef="Sequence_6">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </Sequence>
+      </If.Else>
+    </If>
+    <ui:FileExistsX DisplayName="File Exists" sap:VirtualizedContainerService.HintSize="548,165" sap2010:WorkflowViewState.IdRef="FileExistsX_1">
+      <ui:FileExistsX.Exists>
+        <OutArgument x:TypeArguments="x:Boolean">
+          <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_5">IsOutputFileExists</CSharpReference>
+        </OutArgument>
+      </ui:FileExistsX.Exists>
+      <ui:FileExistsX.Path>
+        <InArgument x:TypeArguments="x:String">
+          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_27">OutputFileFullPath</CSharpValue>
+        </InArgument>
+      </ui:FileExistsX.Path>
+    </ui:FileExistsX>
+    <If sap:VirtualizedContainerService.HintSize="548,464" sap2010:WorkflowViewState.IdRef="If_3">
+      <If.Condition>
+        <InArgument x:TypeArguments="x:Boolean">
+          <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_25">IsOutputFileExists</CSharpValue>
+        </InArgument>
+      </If.Condition>
+      <If.Then>
+        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,191" sap2010:WorkflowViewState.IdRef="Sequence_7">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:DeleteFileX DisplayName="Delete File" sap:VirtualizedContainerService.HintSize="354,103" sap2010:WorkflowViewState.IdRef="DeleteFileX_1">
+            <ui:DeleteFileX.Path>
+              <InArgument x:TypeArguments="x:String">
+                <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_28">OutputFileFullPath</CSharpValue>
+              </InArgument>
+            </ui:DeleteFileX.Path>
+          </ui:DeleteFileX>
+        </Sequence>
+      </If.Then>
+      <If.Else>
+        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,103" sap2010:WorkflowViewState.IdRef="Sequence_8">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </Sequence>
+      </If.Else>
+    </If>
+    <ui:CreateFile ContinueOnError="{x:Null}" Output="{x:Null}" DisplayName="Create File" sap:VirtualizedContainerService.HintSize="548,165" sap2010:WorkflowViewState.IdRef="CreateFile_1">
+      <ui:CreateFile.Name>
+        <InArgument x:TypeArguments="x:String">
+          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_30">OutputFileName</CSharpValue>
+        </InArgument>
+      </ui:CreateFile.Name>
+      <ui:CreateFile.Path>
+        <InArgument x:TypeArguments="x:String">
+          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_29">GlobalConstants.OutputFolderName</CSharpValue>
+        </InArgument>
+      </ui:CreateFile.Path>
+    </ui:CreateFile>
+    <Assign sap:VirtualizedContainerService.HintSize="548,114" sap2010:WorkflowViewState.IdRef="Assign_2">
+      <Assign.To>
+        <OutArgument x:TypeArguments="scg:List(p:UserFlightData)">
+          <CSharpReference x:TypeArguments="scg:List(p:UserFlightData)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_1">UserDataList</CSharpReference>
+        </OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="scg:List(p:UserFlightData)">
+          <CSharpValue x:TypeArguments="scg:List(p:UserFlightData)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_3">new List&lt;UserFlightData&gt;()</CSharpValue>
+        </InArgument>
+      </Assign.Value>
+    </Assign>
+    <ui:InterruptibleWhile CurrentIndex="{x:Null}" DisplayName="While" sap:VirtualizedContainerService.HintSize="548,1810" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1">
+      <ui:InterruptibleWhile.Body>
+        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="514,1673" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence.Variables>
+            <Variable x:TypeArguments="x:String" Name="FirstName" />
+            <Variable x:TypeArguments="x:String" Name="LastName" />
+            <Variable x:TypeArguments="x:String" Name="Destination" />
+            <Variable x:TypeArguments="s:DateOnly" Name="DepartureDate" />
+            <Variable x:TypeArguments="s:DateOnly" Name="ReturnDate" />
+            <Variable x:TypeArguments="p:UserFlightData" Name="UserFlightData" />
+          </Sequence.Variables>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ufa:ShowFormActivity Height="{x:Null}" Left="{x:Null}" ShowInTaskbar="{x:Null}" ShowMargin="{x:Null}" Title="{x:Null}" Top="{x:Null}" TopMost="{x:Null}" Width="{x:Null}" WindowState="{x:Null}" DisplayName="Show Form" FormId="bfa76037-d19a-49f6-995e-0e182e59ce27" sap:VirtualizedContainerService.HintSize="452,218" sap2010:WorkflowViewState.IdRef="ShowFormActivity_1" InstanceName="UserDataFormRuntime" IsAsync="False">
+            <ufa:ShowFormActivity.Arguments>
+              <OutArgument x:TypeArguments="x:String" x:Key="firstName">
+                <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_14">FirstName</CSharpReference>
+              </OutArgument>
+              <OutArgument x:TypeArguments="x:String" x:Key="lastName">
+                <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_15">LastName</CSharpReference>
+              </OutArgument>
+              <OutArgument x:TypeArguments="x:String" x:Key="destination">
+                <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_16">Destination</CSharpReference>
+              </OutArgument>
+              <OutArgument x:TypeArguments="s:DateOnly" x:Key="departureDate">
+                <CSharpReference x:TypeArguments="s:DateOnly" sap2010:WorkflowViewState.IdRef="CSharpReference`1_17">DepartureDate</CSharpReference>
+              </OutArgument>
+              <OutArgument x:TypeArguments="s:DateOnly" x:Key="returnDate">
+                <CSharpReference x:TypeArguments="s:DateOnly" sap2010:WorkflowViewState.IdRef="CSharpReference`1_18">ReturnDate</CSharpReference>
+              </OutArgument>
+            </ufa:ShowFormActivity.Arguments>
+          </ufa:ShowFormActivity>
+          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="452,362" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+            <ui:CommentOut.Body>
+              <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,251" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ufa:GetFormFieldsActivity DisplayName="Get Form Values" FormId="bfa76037-d19a-49f6-995e-0e182e59ce27" sap:VirtualizedContainerService.HintSize="354,163" sap2010:WorkflowViewState.IdRef="GetFormFieldsActivity_1" InstanceName="UserDataFormRuntime">
+                  <ufa:GetFormFieldsActivity.Arguments>
+                    <OutArgument x:TypeArguments="x:String" x:Key="firstName">
+                      <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_9">FirstName</CSharpReference>
+                    </OutArgument>
+                    <OutArgument x:TypeArguments="x:String" x:Key="lastName">
+                      <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_10">LastName</CSharpReference>
+                    </OutArgument>
+                    <OutArgument x:TypeArguments="x:String" x:Key="destination">
+                      <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_11">Destination</CSharpReference>
+                    </OutArgument>
+                    <OutArgument x:TypeArguments="s:DateOnly" x:Key="departureDate">
+                      <CSharpReference x:TypeArguments="s:DateOnly" sap2010:WorkflowViewState.IdRef="CSharpReference`1_12">DepartureDate</CSharpReference>
+                    </OutArgument>
+                    <OutArgument x:TypeArguments="s:DateOnly" x:Key="returnDate">
+                      <CSharpReference x:TypeArguments="s:DateOnly" sap2010:WorkflowViewState.IdRef="CSharpReference`1_13">ReturnDate</CSharpReference>
+                    </OutArgument>
+                  </ufa:GetFormFieldsActivity.Arguments>
+                </ufa:GetFormFieldsActivity>
+              </Sequence>
+            </ui:CommentOut.Body>
+          </ui:CommentOut>
+          <Assign sap:VirtualizedContainerService.HintSize="452,114" sap2010:WorkflowViewState.IdRef="Assign_3">
+            <Assign.To>
+              <OutArgument x:TypeArguments="p:UserFlightData">
+                <CSharpReference x:TypeArguments="p:UserFlightData" sap2010:WorkflowViewState.IdRef="CSharpReference`1_6">UserFlightData</CSharpReference>
+              </OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="p:UserFlightData">
+                <CSharpValue x:TypeArguments="p:UserFlightData" sap2010:WorkflowViewState.IdRef="CSharpValue`1_33">new UserFlightData(FirstName, LastName, Destination, DepartureDate, ReturnDate);</CSharpValue>
+              </InArgument>
+            </Assign.Value>
+          </Assign>
+          <uasc:AppendItemToCollection x:TypeArguments="p:UserFlightData" DisplayName="Append Items to Collection" sap:VirtualizedContainerService.HintSize="452,173" sap2010:WorkflowViewState.IdRef="AppendItemToCollection`1_1">
+            <uasc:AppendItemToCollection.Collection>
+              <InArgument x:TypeArguments="scg:ICollection(p:UserFlightData)">
+                <CSharpValue x:TypeArguments="scg:ICollection(p:UserFlightData)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_7">UserDataList</CSharpValue>
+              </InArgument>
+            </uasc:AppendItemToCollection.Collection>
+            <uasc:AppendItemToCollection.Items>
+              <scg:List x:TypeArguments="InArgument(p:UserFlightData)" Capacity="4">
+                <InArgument x:TypeArguments="p:UserFlightData">
+                  <CSharpValue x:TypeArguments="p:UserFlightData" sap2010:WorkflowViewState.IdRef="CSharpValue`1_34">UserFlightData</CSharpValue>
+                </InArgument>
+              </scg:List>
+            </uasc:AppendItemToCollection.Items>
+          </uasc:AppendItemToCollection>
+          <ufa:CloseFormActivity InstanceName="{x:Null}" DisplayName="Close Form" FormId="bfa76037-d19a-49f6-995e-0e182e59ce27" sap:VirtualizedContainerService.HintSize="452,121" sap2010:WorkflowViewState.IdRef="CloseFormActivity_1" />
+          <ui:AppendLine File="{x:Null}" DisplayName="Append Line" sap:VirtualizedContainerService.HintSize="452,165" sap2010:WorkflowViewState.IdRef="AppendLine_2" UseDefaultEncoding="False">
+            <ui:AppendLine.FileName>
+              <InArgument x:TypeArguments="x:String">
+                <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_31">OutputFileFullPath</CSharpValue>
+              </InArgument>
+            </ui:AppendLine.FileName>
+            <ui:AppendLine.Text>
+              <InArgument x:TypeArguments="x:String">
+                <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_43">UserFlightData.ToString() + "--------------------\n"</CSharpValue>
+              </InArgument>
+            </ui:AppendLine.Text>
+          </ui:AppendLine>
+          <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="452,117" sap2010:WorkflowViewState.IdRef="MessageBox_1">
+            <ui:MessageBox.Text>
+              <InArgument x:TypeArguments="x:Object">
+                <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_15">"Data was succesfully added."</CSharpValue>
+              </InArgument>
+            </ui:MessageBox.Text>
+          </ui:MessageBox>
+          <ui:InputDialog Label="{x:Null}" Options="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="452,315" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" OptionsString="Yes;No" Title="Doy you want to add more?">
+            <ui:InputDialog.Result>
+              <OutArgument x:TypeArguments="x:String">
+                <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_3">AddMoreDialogResult</CSharpReference>
+              </OutArgument>
+            </ui:InputDialog.Result>
+          </ui:InputDialog>
+        </Sequence>
+      </ui:InterruptibleWhile.Body>
+      <ui:InterruptibleWhile.Condition>
+        <CSharpValue x:TypeArguments="x:Boolean" DisplayName="C sharp value" sap2010:WorkflowViewState.IdRef="CSharpValue`1_18">AddMoreDialogResult == "Yes"</CSharpValue>
+      </ui:InterruptibleWhile.Condition>
+    </ui:InterruptibleWhile>
+  </Sequence>
+</Activity>
